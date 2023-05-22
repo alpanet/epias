@@ -1,0 +1,29 @@
+@import "./GeneralDefine.scss";
+
+.loremIpsum{
+    margin-top: 1rem;
+    font-family: $general-font;
+    color: $fifth-color;
+    font-size: $fs-xlarge;
+    font-weight: $fw-normal;
+}
+
+.settings{
+    width: auto;
+    height: auto;
+    background-color: #DBDCB5;
+    border-style: solid;
+    margin-top: 1rem;
+    margin-left: 41%;
+    margin-right: 10%;
+    min-height: 15rem;
+}
+
+.settingsTextAyarlar{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-family: $general-font;
+    color: $fifth-color;
+    font-size: $fs-xlarge;
+    font-weight: $fw-bold;
+}

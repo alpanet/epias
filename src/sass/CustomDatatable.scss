@@ -1,0 +1,108 @@
+@import "./GeneralDefine.scss";
+
+.dataTableHeader {
+    background-color: $forth-color;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    height: 2rem;
+    align-content: center;
+    font-family: $general-font;
+    color: $fifth-color;
+    font-size: $fs-xlarge;
+    font-weight: $fw-bold;
+}
+
+.dataTableHeader div:first-child {
+    padding-left: 1rem;
+}
+
+.dataTableContent {
+
+    font-family: $general-font;
+    color: $fifth-color;
+    font-size: $fs-large;
+    font-weight: $fw-normal;
+}
+
+.dataTableRow {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-content: center;
+    border-style: groove;
+    padding-left: 1.2rem;
+    height: 2rem;
+    border-width: 0.1px;
+    border-color: gray;
+    border-top-style: none;
+}
+
+.selectBox {
+    background-color: $seventh-color;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.selectItem {
+    margin-left: 1rem;
+}
+
+.customDatatableBlankCol {
+    width: 99%;
+}
+
+.customDatatableIcon {
+    padding: 0.3rem;
+}
+
+.exportIcon {
+    width: 1rem;
+    cursor: pointer;
+}
+
+.gearIcon {
+    width: 1rem;
+    cursor: pointer;
+}
+
+.plusIcon {
+    width: 1rem;
+    cursor: pointer;
+}
+
+.filterArea {
+    position: absolute;
+    width: 10rem;
+    background-color: white;
+    margin-top: 0.8rem;
+    border-style: solid;
+    border-width: 0.15rem;
+}
+
+.filterAreaDiv {
+    width: 10rem;
+}
+
+.newItemArea {
+    background-color: $seventh-color;
+    height: auto;
+}
+
+.newItemRow{
+    height: 0.3rem;
+}
+
+.componentArea{
+    margin-left: 1rem;
+    display: flex;
+}
+
+.buttonArea{
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    height: 2rem;
+}
+
+.customComponentDiv{
+    margin-right: 1rem;
+}

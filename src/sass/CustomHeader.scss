@@ -1,0 +1,118 @@
+@import "./GeneralDefine.scss";
+
+.header {
+    background-image: linear-gradient(to right, $second-color, $third-color);
+}
+
+.row-flex {
+    display: flex;
+}
+
+.epias-logo {
+    width: 70%;
+    height: 70%;
+}
+
+.col-epias-logo {
+    width: 7rem;
+    height: $header-height;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-blank {
+    width: 77%;
+    height: $header-height;
+}
+
+.col-calisma-alani {
+    width: 10rem;
+    height: $header-height;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-save-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.5rem;
+}
+
+.save-image-div {
+    width: 2rem;
+    height: 2rem;
+    background-color: #2D9E46;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.save-image-logo {
+    width: 70%;
+    height: 70%;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $general-font;
+    color: $first-color;
+    font-size: $fs-xlarge;
+    font-weight: $fw-normal;
+}
+
+.col-profile {
+    width: 10rem;
+    height: $header-height;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-profile-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.5rem;
+}
+
+.profile-image {
+    font-family: $general-font;
+    color: $first-color;
+    font-size: $fs-xxlarge;
+    font-weight: $fw-semi-bold;
+    border-style: solid;
+    border-radius: 10rem;
+    border-width: 0.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    width: 2rem;
+}
+
+.profile-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: $header-height;
+}
+
+.profile-first-text {
+    font-family: $general-font;
+    color: $first-color;
+    font-size: $fs-xlarge;
+    font-weight: $fw-extra-light;
+    margin-right: 0.2rem;
+}
+
+.profile-name {
+    font-family: $general-font;
+    color: $first-color;
+    font-size: $fs-xlarge;
+    font-weight: $fw-semi-bold;
+}
